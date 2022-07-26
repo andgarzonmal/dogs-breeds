@@ -5,6 +5,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
 }
 
 .nav-items-container {
