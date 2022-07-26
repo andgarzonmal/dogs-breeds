@@ -1,0 +1,60 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #5274b3;
+  position: fixed;
+}
+
+#patitas {
+  position: fixed;
+  width: 400px;
+  height: 180px;
+  display: flex;
+  bottom: 0;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 24px;
+  font-size: 20px;
+  color: beige;
+}
+
+#large-dog {
+  width: 40px;
+}
+
+#small-dog {
+  width: 40px;
+}
+
+#medium-dog {
+  width: 55px;
+}
+
+.size-container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  border: #f8f8f8 solid 1px;
+  margin: 10px;
+  width: 60%;
+  height: 70px;
+  justify-content: space-between;
+}
+
+.size-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
