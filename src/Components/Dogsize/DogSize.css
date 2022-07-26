@@ -1,0 +1,10 @@
+.cards-container {
+  display: grid;
+}
+
+.all-content-container {
+  width: 100%;
+  height: 100%;
+  background-color: #5274b3;
+  padding-top: 45px;
+}

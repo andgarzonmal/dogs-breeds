@@ -9,6 +9,7 @@
   height: 100vh;
   background-color: #5274b3;
   position: fixed;
+  margin-top: 40px;
 }
 
 #patitas {
@@ -49,6 +50,8 @@
   width: 60%;
   height: 70px;
   justify-content: space-between;
+  text-decoration: none;
+  color: black;
 }
 
 .size-filter {

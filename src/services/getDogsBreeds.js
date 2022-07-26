@@ -9,7 +9,7 @@ const getDogsBreeds = async () => {
       metricWeight: dog.weight.metric.split(' - '),
       imperialHeight: dog.height.imperial.split(' - '),
       metricHeight: dog.height.metric.split(' - '),
-      name: dog.name,
+      name: dog.name.toLowerCase(),
       lifeSpan: dog.life_span,
       image: dog.image.url,
       id: uuidv4(),
