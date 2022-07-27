@@ -1,21 +1,15 @@
 .card-image {
   width: 100px;
   height: 71.4px;
-}
-
-.card-name {
-  text-decoration: none;
-}
-
-.card-image {
   margin-top: 10px;
   margin-left: 15%;
   border-radius: 10px;
 }
 
 .card-name {
+  text-decoration: none;
   text-align: center;
-  color:aliceblue;
+  color: aliceblue;
   font-size: 10px;
   margin-bottom: 12px;
 }
