@@ -1,10 +1,88 @@
+.all-header {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  padding-top: 25px;
+  color: aliceblue;
+  background-color: #5588e3;
+  display: flex;
+}
+
 .cards-container {
   display: grid;
+  grid-template-columns: repeat(auto-fill, 50%);
+}
+
+.cards-container a:nth-child(4n) {
+  background-color: #4269b0;
+}
+
+.cards-container a:nth-child(4n + 1) {
+  background-color: #4269b0;
 }
 
 .all-content-container {
   width: 100%;
   height: 100%;
   background-color: #5274b3;
-  padding-top: 45px;
+  padding-top: 40px;
+}
+
+#medium-dog-all {
+  width: 45%;
+  height: 100%;
+}
+
+#small-dog-all {
+  width: 45%;
+  height: 100%;
+}
+
+#large-dog-all {
+  width: 30%;
+  height: 66.666%;
+}
+
+form {
+  width: 100%;
+  background-color: #35538a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  background-color: #5588e3;
+  border: none;
+  margin: 8px;
+  padding: 6px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+form input:focus-visible {
+  outline: none;
+  color: aliceblue;
+  font-size: 16px;
+}
+
+form input::placeholder {
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.back-to-menu {
+  border: 1px rgb(24, 24, 214) solid;
+  margin-left: 4px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.simbol {
+  color: white;
+}
+
+.back-to-menu:hover {
+  background-color: rgb(24, 24, 214);
 }

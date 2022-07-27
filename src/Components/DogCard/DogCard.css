@@ -1,4 +1,15 @@
 .card-image {
-  width: 140px;
-  height: 100px;
+  width: 100px;
+  height: 71.4px;
+  margin-top: 10px;
+  margin-left: 15%;
+  border-radius: 10px;
+}
+
+.card-name {
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+  font-size: 10px;
+  margin-bottom: 12px;
 }

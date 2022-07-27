@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { BiArrowBack } from 'react-icons/bi';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { displayLargeDogs } from '../../Redux/dogs';
 import DogCard from '../DogCard/DogCard';
 import './DogSize.css';
@@ -25,11 +27,23 @@ export default function Large() {
 
   return (
     <div className="all-content-container">
-      <h1>All Small Breeds Here</h1>
+      <div className="all-header">
+        <h1>All Large Breeds Here</h1>
+        <img id="large-dog-all" src="https://github.com/andgarzonmal/programa/blob/master/newfoundland-512-removebg-preview.png?raw=true" alt="Large Dog" />
+      </div>
       <form>
+        <Link
+          to="/"
+          className="back-to-menu"
+        >
+          <i className="simbol">
+            <BiArrowBack />
+          </i>
+        </Link>
         <input
           type="text"
           placeholder="Search breed here..."
+          value={input}
           onChange={(e) => setInput(e.target.value)}
         />
       </form>

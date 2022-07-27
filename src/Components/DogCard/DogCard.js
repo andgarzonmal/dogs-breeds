@@ -7,10 +7,11 @@ export default function DogCard({ name, image, id }) {
   return (
     <Link
       to={`/dog/${id}`}
+      className="card-container"
     >
       <div className="card">
-        <h4 className="card-name">{name}</h4>
         <img className="card-image" src={image} alt={name} />
+        <h4 className="card-name">{name}</h4>
       </div>
     </Link>
   );
