@@ -60,6 +60,11 @@ Cloning a repository
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/andres-garzon-maldonado-951a2a180/
 
+## Acknowledgments
+
+- for Microverse curriculum projects
+- Original design idea by Nelson Sakwa on Behance.
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
