@@ -6,6 +6,9 @@
 
 https://www.loom.com/share/cf74443662ab4455b24c608900185181
 
+## Live version 
+https://62e1ce04553aae052d2753c4--harmonious-selkie-72e72f.netlify.app/
+
 ## Built With
 
 - JavaScript
