@@ -10,7 +10,7 @@ describe(Medium, () => {
     renderWithProviders(
       <BrowserRouter>
         <Medium />
-      </BrowserRouter>
+      </BrowserRouter>,
     );
     const header = screen.getByRole('heading', { name: /All Medium Breeds Here/i });
     expect(header).toBeInTheDocument();
