@@ -2,6 +2,10 @@
 
 > Search for your favorite dog breed
 
+## Video 
+
+https://www.loom.com/share/cf74443662ab4455b24c608900185181
+
 ## Built With
 
 - JavaScript
