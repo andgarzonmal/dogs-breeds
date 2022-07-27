@@ -7,7 +7,11 @@ import '@testing-library/jest-dom';
 
 describe(Small, () => {
   it('renders the header', () => {
-    renderWithProviders(<Small />);
+    renderWithProviders(
+      <BrowserRouter>
+        <Small />
+      </BrowserRouter>,
+    );
     const header = screen.getByRole('heading', { name: /All Small Breeds Here/i });
     expect(header).toBeInTheDocument();
   });

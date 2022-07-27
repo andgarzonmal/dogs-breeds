@@ -7,7 +7,11 @@ import Large from './Large';
 
 describe(Large, () => {
   it('renders the header', () => {
-    renderWithProviders(<Large />);
+    renderWithProviders(
+      <BrowserRouter>
+        <Large />
+      </BrowserRouter>,
+    );
     const header = screen.getByRole('heading', { name: /All Large Breeds Here/i });
     expect(header).toBeInTheDocument();
   });

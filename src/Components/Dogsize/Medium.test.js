@@ -7,7 +7,11 @@ import '@testing-library/jest-dom';
 
 describe(Medium, () => {
   it('renders the header', () => {
-    renderWithProviders(<Medium />);
+    renderWithProviders(
+      <BrowserRouter>
+        <Medium />
+      </BrowserRouter>
+    );
     const header = screen.getByRole('heading', { name: /All Medium Breeds Here/i });
     expect(header).toBeInTheDocument();
   });
